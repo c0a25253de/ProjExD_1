@@ -15,7 +15,7 @@ def main():
     pg.draw.circle(enn, (255, 0, 0), (10, 10), 10)
     enn.set_colorkey((0, 0, 0))
 
-    tmr = 0
+    tmr = 10
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT: return
